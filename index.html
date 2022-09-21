@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Maine-coon</title>
+   <link rel="stylesheet" href="css/style.min.css?_v=20220921171700">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220921171700" />
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="main-header">
+   <div class="container">
+      <div class="main-header__body">
+         <a href="#" class="main-header__logo">
+            <img src="img/crown.svg" alt="логотип">
+         </a>
+         <nav class="main-header__menu">
+            <ul class="main-header__list">
+               <li><a data-goto=".pets" href="#" class="main-header__link">Питомцы</a></li>
+               <li><a data-goto=".about-breed" href="#" class="main-header__link">Особенности Породы</a></li>
+               <li><a data-goto=".advantages" href="#" class="main-header__link">Почему именно Мы</a></li>
+               <li><a data-goto=".care" href="#" class="main-header__link">Об уходе за Мэйн-Куном</a></li>
+               <li><a data-goto=".team" href="#" class="main-header__link">Наша Команда</a></li>
+               <li><a data-goto=".faq" href="#" class="main-header__link">Вопрос-Ответ</a></li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+</header>
+      <main>
+         <section class="intro">
+            <div class="intro__wrapper">
+               <div class="intro__body">
+                  <p>Новосибирск</p>
+                  <h1 class="main-title">Питомник Мейн-Кунов</h1>
+                  <p>Первый питомник с расширенным спектром услуг</p>
+                  <a href="#" class="btn intro__btn">Смотреть котиков</a>
+                  <ul class="intro__social">
+                     <li><a href="#" class="intro__social-link intro__vk">vk</a></li>
+                     <li><a href="#" class="intro__social-link intro__twitter">twitter</a></li>
+                     <li><a href="#" class="intro__social-link intro__facebook">facebook</a></li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <section class="pets">
+            <div class="container">
+               <h2 class="pets__title title">Питомцы</h2>
+               <p class="pets__text">Все представители нашего питомника имеют ветеринарный паспорт
+                  с отметками о прививках и документ с родословной</p>
+               <div class="pets__tabs">
+                  <div class="pets__tabs-triggers">
+                     <a href="#tab-1" class="pets__tabs-trigger">Коты</a>
+                     <a href="#tab-2" class="pets__tabs-trigger">Кошки</a>
+                     <a href="#tab-3" class="pets__tabs-trigger">Котята</a>
+
+                     <a href="#tab-4" class="pets__tabs-trigger pets__tabs-trigger2">Коты</a>
+                     <a href="#tab-5" class="pets__tabs-trigger">Кошки</a>
+                     <a href="#tab-6" class="pets__tabs-trigger">Котята</a>
+                  </div>
+                  <div class="pets__tabs-content">
+                     <div id="tab-1" class="pets__tabs-cats">
+                        <div class="pets__tabs-img-row">
+                           <div class="pets__tabs-img-box pets__tabs-img-box-1">
+                              <picture><source srcset="img/cat1.webp" type="image/webp"><img src="img/cat1.png" alt="cat"></picture>
+                           </div>
+                           <div class="pets__tabs-img-box pets__tabs-img-box-2">
+                              <picture><source srcset="img/cat2.webp" type="image/webp"><img src="img/cat2.png" alt="cat"></picture>
+                           </div>
+                        </div>
+                        <div class="pets__tabs-img-box pets__tabs-img-box-3">
+                           <picture><source srcset="img/cat3.webp" type="image/webp"><img src="img/cat3.jpg" alt="cat"></picture>
+                        </div>
+                     </div>
+                     <div id="tab-2" class="pets__tabs-cats">
+                        <div class="pets__tabs-img-row">
+                           <div class="pets__tabs-img-box pets__tabs-img-box-1">
+                              <picture><source srcset="img/кот21.webp" type="image/webp"><img src="img/кот21.jpg" alt="cat"></picture>
+                           </div>
+                           <div class="pets__tabs-img-box pets__tabs-img-box-2">
+                              <picture><source srcset="img/кот22.webp" type="image/webp"><img src="img/кот22.jpg" alt="cat"></picture>
+                           </div>
+                        </div>
+                        <div class="pets__tabs-img-box pets__tabs-img-box-3">
+                           <picture><source srcset="img/кот23.webp" type="image/webp"><img src="img/кот23.jpg" alt="cat"></picture>
+                        </div>
+                     </div>
+                     <div id="tab-3" class="pets__tabs-cats">
+                        <div class="pets__tabs-img-row">
+                           <div class="pets__tabs-img-box pets__tabs-img-box-1">
+                              <picture><source srcset="img/кот31.webp" type="image/webp"><img src="img/кот31.jpg" alt="cat"></picture>
+                           </div>
+                           <div class="pets__tabs-img-box pets__tabs-img-box-2">
+                              <picture><source srcset="img/кот32.webp" type="image/webp"><img src="img/кот32.jpg" alt="cat"></picture>
+                           </div>
+                        </div>
+                        <div class="pets__tabs-img-box pets__tabs-img-box-3">
+                           <picture><source srcset="img/кот33.webp" type="image/webp"><img src="img/кот33.jpg" alt="cat"></picture>
+                        </div>
+                     </div>
+
+                     <div id="tab-4" class="pets-slider-box">
+                        <div class="pets-slider swiper">
+                           <div class="pets-slider__wrapper swiper-wrapper">
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/cat1.webp" type="image/webp"><img src="img/cat1.png" alt="1"></picture>
+                              </div>
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/cat2.webp" type="image/webp"><img src="img/cat2.png" alt="2"></picture>
+                              </div>
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/cat3.webp" type="image/webp"><img src="img/cat3.jpg" alt="3"></picture>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="pets-slider__button-prev">prev</div>
+                        <div class="pets-slider__button-next">next</div>
+                     </div>
+                     <div id="tab-5" class="pets-slider-box">
+                        <div class="pets-slider swiper">
+                           <div class="pets-slider__wrapper swiper-wrapper">
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/кот21.webp" type="image/webp"><img src="img/кот21.jpg" alt="1"></picture>
+                              </div>
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/кот22.webp" type="image/webp"><img src="img/кот22.jpg" alt="2"></picture>
+                              </div>
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/кот23.webp" type="image/webp"><img src="img/кот23.jpg" alt="3"></picture>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="pets-slider__button-prev">prev</div>
+                        <div class="pets-slider__button-next">next</div>
+                     </div>
+                     <div id="tab-6" class="pets-slider-box">
+                        <div class="pets-slider swiper">
+                           <div class="pets-slider__wrapper swiper-wrapper">
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/кот31.webp" type="image/webp"><img src="img/кот31.jpg" alt="1"></picture>
+                              </div>
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/кот32.webp" type="image/webp"><img src="img/кот32.jpg" alt="2"></picture>
+                              </div>
+                              <div class="pets-slider__slide swiper-slide">
+                                 <picture><source srcset="img/кот33.webp" type="image/webp"><img src="img/кот33.jpg" alt="3"></picture>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="pets-slider__button-prev">prev</div>
+                        <div class="pets-slider__button-next">next</div>
+                     </div>
+                  </div>
+                  <a href="#" class="btn pets__btn">Смотреть больше</a>
+               </div>
+         </section>
+
+         <section class="about-breed">
+            <div class="container">
+               <h2 class="about-breed__title title">Особенности породы</h2>
+               <p class="about-breed__text">Мейн-Кун - это порода, которая вызывает к себе уважение.
+                  Приобретая в свой дом этого питомца,
+                  вы получите умное животное, которому нет равных</p>
+               <div class="about-breed__list-wrapper">
+                  <ul class="about-breed__list">
+                     <li class="about-breed__item about-breed__item-1">Легко уживается в семьях с детьми или другими
+                        животными</li>
+                     <li class="about-breed__item about-breed__item-2">Внешний вид этой кошки похож на дикую рысь</li>
+                     <li class="about-breed__item about-breed__item-3">Выполняет команды как дрессированная собака</li>
+                     <li class="about-breed__item about-breed__item-4">Вес может достигать 12 кг, а длина 1 м</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <section class="advantages">
+            <div class="container">
+               <h2 class="title advantages__title">Почему именно мы?</h2>
+               <p class="advantages__text">Приобретая животное в нашем питомнике, вы получит</p>
+               <ul class="advantages__list">
+                  <li class="advantages__item">
+                     <div class="advantages__content">
+                        <div class="advantages__img">
+                           <img src="img/advantages5.svg" alt="преимущество">
+                        </div>
+                        <p class="advantages__content-text">Бесплатное ветеринарное обслуживание 5 лет</p>
+                     </div>
+                  </li>
+                  <li class="advantages__item">
+                     <div class="advantages__content">
+                        <div class="advantages__img">
+                           <img src="img/advantages4.svg" alt="преимущество">
+                        </div>
+                        <p class="advantages__content-text">Консультирование по любому вопросу 24 часа в сутки</p>
+                     </div>
+                  </li>
+                  <li class="advantages__item">
+                     <div class="advantages__content">
+                        <div class="advantages__img">
+                           <img src="img/advantages1.svg" alt="преимущество">
+                        </div>
+                        <p class="advantages__content-text">Индивидуальный подбор питания для вашего кота</p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+
+         <section class="care">
+            <div class="container">
+               <h2 class="title care__title">Об уходе за Мейн-Куном</h2>
+               <ul class="care__list">
+                  <li class="care__item">
+                     <div class="care__item-content">
+                        <h3 class="care__item-title">Шерсть</h3>
+                        <p class="care__item-text">Мы разработали 8 правил, следуя которым, шерсть вашего
+                           кота всегда будет блестящей, мягкой и послушной</p>
+                        <a href="#" class="care__item-link"></a>
+                     </div>
+                  </li>
+                  <li class="care__item">
+                     <div class="care__item-content">
+                        <h3 class="care__item-title">Когти</h3>
+                        <p class="care__item-text">Нужно ли стричь когти? Это мы и выясним, плюс ко всему расскажем как
+                           подобрать идеальную когтеточку</p>
+                        <a href="#" class="care__item-link"></a>
+                     </div>
+                  </li>
+                  <li class="care__item">
+                     <div class="care__item-content">
+                        <h3 class="care__item-title">Уши и глаза</h3>
+                        <p class="care__item-text">Владельцам котов необходимо регулярно осматривать
+                           ушки и глазасвоих питомцев, ведь это может быть
+                           признаками заболевания</p>
+                        <a href="#" class="care__item-link"></a>
+                     </div>
+                  </li>
+                  <li class="care__item">
+                     <div class="care__item-content">
+                        <h3 class="care__item-title">Питание</h3>
+                        <p class="care__item-text">В нашем питомнике существует два подхода: натуральное питание и
+                           питание
+                           промышленными кормами, но выбирать только вам</p>
+                        <a href="#" class="care__item-link"></a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+
+         <section class="team">
+            <div class="container">
+               <h2 class="title team__title">Наша команда</h2>
+               <p class="team__text">Все сотрудники нашего питомника дипломированые специалисты
+                  в области фелинологии и ветеринарии</p>
+               <div class="team__slider swiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="team__staff">
+                           <div class="team__staff-img">
+                              <picture><source srcset="img/team_man1.webp" type="image/webp"><img src="img/team_man1.jpg" alt="сотрудник"></picture>
+                           </div>
+                           <div class="team__staff-about">
+                              <div class="team__staff-about-wrapper">
+                                 <h3 class="team__staff-name">Серёжа Попов</h3>
+                                 <p class="team__staff-position">Основатель питомника</p>
+                                 <p class="team__staff-text">Наш питомник занимается разведением Мейн-Кунов
+                                    на протяжении 15 лет. Мы в ответе за каждого
+                                    приобретенного вами питомца</p>
+                                 <ul class="team__social">
+                                    <li><a href="#" class="team__social-link team__vk">vk</a></li>
+                                    <li><a href="#" class="team__social-link team__twitter">twitter</a></li>
+                                    <li><a href="#" class="team__social-link team__facebook">facebook</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="team__staff">
+                           <div class="team__staff-img">
+                              <picture><source srcset="img/team_man2.webp" type="image/webp"><img src="img/team_man2.jpg" alt="сотрудник"></picture>
+                           </div>
+                           <div class="team__staff-about">
+                              <div class="team__staff-about-wrapper">
+                                 <h3 class="team__staff-name">Роберт Горшков</h3>
+                                 <p class="team__staff-position">Директор Питомника</p>
+                                 <p class="team__staff-text">Наш питомник занимается разведением Мейн-Кунов
+                                    на протяжении 15 лет. Мы в ответе за каждого
+                                    приобретенного вами питомца</p>
+                                 <ul class="team__social">
+                                    <li><a href="#" class="team__social-link team__vk">vk</a></li>
+                                    <li><a href="#" class="team__social-link team__twitter">twitter</a></li>
+                                    <li><a href="#" class="team__social-link team__facebook">facebook</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="team__staff">
+                           <div class="team__staff-img">
+                              <picture><source srcset="img/team_man3.webp" type="image/webp"><img src="img/team_man3.jpg" alt="сотрудник"></picture>
+                           </div>
+                           <div class="team__staff-about">
+                              <div class="team__staff-about-wrapper">
+                                 <h3 class="team__staff-name">Анджелика Крышкина</h3>
+                                 <p class="team__staff-position">Охраник питомника</p>
+                                 <p class="team__staff-text">Наш питомник занимается разведением Мейн-Кунов
+                                    на протяжении 15 лет. Мы в ответе за каждого
+                                    приобретенного вами питомца</p>
+                                 <ul class="team__social">
+                                    <li><a href="#" class="team__social-link team__vk">vk</a></li>
+                                    <li><a href="#" class="team__social-link team__twitter">twitter</a></li>
+                                    <li><a href="#" class="team__social-link team__facebook">facebook</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="team__button-prev">prev</div>
+                  <div class="team__button-next">next</div>
+               </div>
+            </div>
+         </section>
+
+         <section class="faq">
+            <div class="container">
+               <h2 class="title faq__title">Вопрос-Ответ</h2>
+               <p class="faq__text">Мы ответим на самые популярные ваши вопросы</p>
+               <ol class="faq__list">
+                  <li class="faq__item">
+                     <div class="faq__item-title">
+                        <p>С какого возраста можно забирать котенка из питомника?</p>
+                        <button></button>
+                     </div>
+                     <div class="faq__item-answer">
+                        <p> Есть важная причина, почему котенка стоит забирать домой только после
+                           трех месяцев, — это вакцинация. Первые прививки животному делают в возрасте 8 недель.
+                           Ревакцинация проводится через 3–4 недели. То есть котенок, покидающий дом позднее 12 недель,
+                           максимально защищен от различных вирусов и инфекций.</p>
+
+                        <p> Так что, чтобы в дома появился психически и физически здоровый котенок, игривый,
+                           жизнерадостный,
+                           самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.</p>
+                     </div>
+                  </li>
+                  <li class="faq__item">
+                     <div class="faq__item-title">
+                        <p>Как зарезервировать котенка?</p>
+                        <button></button>
+                     </div>
+                     <div class="faq__item-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quo obcaecati exercitationem
+                           magnam officiis alias earum at esse atque perspiciatis tenetur est, omnis eaque ratione?
+                           Impedit aliquid fugit numquam beatae?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga, veniam necessitatibus
+                           pariatur voluptas corrupti!</p>
+                     </div>
+                  </li>
+                  <li class="faq__item">
+                     <div class="faq__item-title">
+                        <p>Можно ли купить кота, если я живу в другом городе?</p>
+                        <button></button>
+                     </div>
+                     <div class="faq__item-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quo obcaecati exercitationem
+                           magnam officiis alias earum at esse atque perspiciatis tenetur est, omnis eaque ratione?
+                           Impedit aliquid fugit numquam beatae?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga, veniam necessitatibus
+                           pariatur voluptas corrupti!</p>
+                     </div>
+                  </li>
+                  <li class="faq__item">
+                     <div class="faq__item-title">
+                        <p>Как подготовить дом к приему нового питомца? </p>
+                        <button></button>
+                     </div>
+                     <div class="faq__item-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quo obcaecati exercitationem
+                           magnam officiis alias earum at esse atque perspiciatis tenetur est, omnis eaque ratione?
+                           Impedit aliquid fugit numquam beatae?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga, veniam necessitatibus
+                           pariatur voluptas corrupti!</p>
+                     </div>
+                  </li>
+               </ol>
+            </div>
+         </section>
+
+      </main>
+      <footer class="main-footer">
+   <div class="container">
+      <div class="main-footer__body">
+         <a href="#" class="main-footer__logo">
+            <img src="img/crown.svg" alt="логотип">
+         </a>
+         <ul class="main-footer__social">
+            <li><a href="#" class="main-footer__social-link main-footer__facebook">facebook</a></li>
+            <li><a href="#" class="main-footer__social-link main-footer__twitter">twitter</a></li>
+            <li><a href="#" class="main-footer__social-link main-footer__vk">vk</a></li>
+         </ul>
+         <a href="https://yandex.ru/maps/geo/novosibirsk/53118058/?ll=82.978475%2C55.020674&z=11.98"
+            class="main-footer__address">Новосибирск, Пушкинский проспект, 19</a>
+         <a href="#" class="main-footer__telephone">+7 (383) 900-64-65</a>
+      </div>
+   </div>
+</footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220921171700"></script>
+      <script src="js/app.min.js?_v=20220921171700"></script>
+   </div>
+</body>
+
+</html>
